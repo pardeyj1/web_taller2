@@ -1,0 +1,23 @@
+<a href="/store" class="back"> Regresar a la tienda</a>
+<form action="/checkout" method="POST" class="checkout_form">
+    <label>
+        <h2>Name</h2>
+        <input placeholder="Name" name="name" required="true">
+    </label>
+    <label>
+        <h2>Card Number</h2>
+        <input placeholder="Card Number" name="cardnumber" required="true" type="number">
+    </label>
+    <label>
+        <h2>CVV</h2>
+        <input placeholder="CVV" name="cvv" required="true" type="number">
+    </label>
+    <label>
+        <h2>Expiration Date</h2>
+        <input placeholder="Expiration Date" name="expirationdate" required="true">
+    </label>
+    <input name="products" type="hidden" class="checkoutform__products">
+    <button class="sendBtn">Proceed</button>
+</form>
+
+<script src="/scripts/checkout.js"></script>

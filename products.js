@@ -1,10 +1,10 @@
 const products = [
 
 {
-    id: '1',
+    id: 1,
     title: 'Klemperer',
     description: 'Un trago amargo hecho a partir de Whisky y toques de gengibre, los cuales van a provocar una explosión de picor en tu boca',
-    price: '60.000 cop',
+    price: 60000 ,
     licor: 'tiene',
     promo: 'no tiene',
     tipo: 'clasico',
@@ -16,10 +16,10 @@ const products = [
 },
 
 {
-    id: '2',
+    id: 2,
     title: 'Huller',
     description: 'Un coctel con base de Ron, zumo de naranja, y toques de canela, que provocan una sensación de calidez en tu boca',
-    price: '70.000 cop',
+    price: 70000 ,
     licor: 'tiene',
     promo: 'no tiene',
     tipo: 'clasico',
@@ -30,10 +30,10 @@ const products = [
 },
 
 {
-    id:'3',
+    id:3,
     title: 'Guadagnino',
     description: 'Coctél sin licor, elaborado a partir de la mezcla de frutas dulces, como mango, naranja, mandarina, y durazno, hecho para los amantes del dulce',
-    price: '60.000 cop',
+    price: 60000 ,
     licor: 'no tiene',
     promo: 'no tiene',
     tipo: 'de la casa',
@@ -45,10 +45,10 @@ const products = [
 
 
 {
-    id:'4',
+    id:4,
     title: 'Independant',
     description: 'Un coctél hecho con base de Baileys, licor de café, trozos espolvoreados de chocolate, y opcionalmente puede llevar helado de vainilla. Elaborado para aquellos que prefieren los cocteles suaves',
-    price: '75.000 cop',
+    price: 75000 ,
     licor: 'tiene',
     promo: 'no tiene',
     tipo: 'clasico',
@@ -60,10 +60,10 @@ const products = [
 
 
 {
-    id:'5',
+    id:5,
     title: 'Patricia Hingle',
     description: 'Coctel Italiano sin licor, elaborado a partir de Soda, zumo de frambuesa, de cereza y de naranja. Decorado con hojas de menta',
-    price: '30.000 cop',
+    price: 30000 ,
     licor: 'no tiene',
     promo: 'tiene',
     tipo: 'clasico',
@@ -75,10 +75,10 @@ const products = [
 
 
 {
-    id:'6',
+    id:6,
     title: 'Vendegast',
     description: 'Un coctél solo para los valientes, y aventureros de probar sabores nuevos y exóticos, elaborado con base de ginebra y tomate de árbol, los demás ingredientes son secretos. Déjate sorprender',
-    price: '58.000 cop',
+    price: 58000 ,
     licor: 'tiene',
     promo: 'tiene',
     tipo: 'de la casa',
@@ -89,10 +89,10 @@ const products = [
 },
 
 {
-    id:'7',
+    id:7,
     title: 'Miss Mandel',
     description: 'Coctel elaborado a partir de licor Cynar y Contreau, con zumo de limón y toques de menta. Para los paladares que quieren sentirse frescos',
-    price: '80.000 cop',
+    price: 80000 ,
     licor: 'tiene',
     promo: 'no tiene',
     tipo: 'de la casa',
@@ -104,10 +104,10 @@ const products = [
 
 
 {
-    id:'8',
+    id:8,
     title: 'Altman',
     description: 'Trago elaborado a partir de licor Drambuie, con decoración de cereza y durazno',
-    price: '70.000 cop',
+    price: 70000 ,
     licor: 'tiene',
     promo: 'no tiene',
     tipo: 'clasico',
@@ -119,10 +119,10 @@ const products = [
 
 
 {
-    id:'9',
+    id:9,
     title: 'Miss Griffith',
     description: 'Coctél elaborado a partir de Fernet, Gin y Genever, con licor de morazul',
-    price: '90.000 cop',
+    price: 90000 ,
     licor: 'tiene',
     promo: 'no tiene',
     tipo: 'clasico',
@@ -133,10 +133,10 @@ const products = [
 },
 
 {
-    id:'10',
+    id:10,
     title: 'Anke Meir',
     description: 'Coctél italiano elaborado a partir de Amaretto y Maraschino, con zumo de arándanos y cereza. ',
-    price: '75.000 cop',
+    price: 75000,
     licor: 'tiene',
     promo: 'no tiene',
     tipo: 'de la casa',
@@ -147,10 +147,10 @@ const products = [
 },
 
 {
-    id:'11',
+    id:11,
     title: 'Frau Sesame',
     description: 'Coctél sin licor hecho a partir de Soda italiana, fresa y manzana ',
-    price: '40.000 cop',
+    price: 40000 ,
     licor: 'no tiene',
     promo: 'no tiene',
     tipo: 'de la casa',
@@ -161,10 +161,10 @@ const products = [
 },
 
 {
-    id:'12',
+    id:12,
     title: 'Volpi',
     description: 'Coctél dulce hecho a partir de Vodka y Chartreuse ',
-    price: '75.000 cop',
+    price: 75000 ,
     licor: 'tiene',
     promo: 'no tiene',
     tipo: 'de la casa',
@@ -174,10 +174,10 @@ const products = [
 
 },
 {
-    id:'13',
+    id:13,
     title: 'Pasión Tropical',
     description: 'Coctél sin licor realizado a partir de la mezcla de melocotón y fresas',
-    price: '25.000 cop',
+    price: 25000 ,
     licor: 'no tiene',
     promo: 'no tiene',
     tipo: 'clasico',
@@ -187,10 +187,10 @@ const products = [
 
 },
 {
-    id:'14',
+    id:14,
     title: 'Miss Janner',
     description: 'Coctél elaborado a partir de licro Blanko y Benedectine, mezclado con papaya ',
-    price: '85.000 cop',
+    price: 85000 ,
     licor: 'tiene',
     promo: 'no tiene',
     tipo: 'clasico',
@@ -202,10 +202,10 @@ const products = [
 
 
 {
-    id:'15',
+    id:15,
     title: 'Paula',
     description: 'Coctél elaborado a partir de licor Calvados y Vodka, mezclados con zumo de manzana verde ',
-    price: '80.000 cop',
+    price: 80000 ,
     licor: 'tiene',
     promo: 'no tiene',
     tipo: 'clasico',
@@ -216,10 +216,10 @@ const products = [
 },
 
 {
-    id:'16',
+    id:16,
     title: 'Mukdeeprom',
     description: 'Coctél realizado a partir de Cognac, Ron, y cerezas ',
-    price: '75.000 cop',
+    price: 75000 ,
     licor: 'tiene',
     promo: 'no tiene',
     tipo: 'de la casa',
@@ -230,10 +230,10 @@ const products = [
 },
 
 {
-    id:'17',
+    id:17,
     title: 'Madame Cipre',
     description: 'Coctél elaborado a partir de licor B&B y limonada de coco ',
-    price: '60.000 cop',
+    price: 60000 ,
     licor: 'tiene',
     promo: 'no tiene',
     tipo: 'de la casa',
@@ -244,10 +244,10 @@ const products = [
 },
 
 {
-    id:'18',
+    id:18,
     title: 'Bannion',
     description: 'Coctél sin licor, hecho a partir de frutos rojos,y zumo de maracuyá  ',
-    price: '30.000 cop',
+    price: 30000 ,
     licor: 'no tiene',
     promo: 'no tiene',
     tipo: 'clasico',
@@ -259,10 +259,10 @@ const products = [
 
 
 {
-    id:'19',
+    id: 19,
     title: 'Balfour',
     description: 'Coctél elaborado a partir de Licor Curacao, y Guayaba ',
-    price: '50.000 cop',
+    price: 50000,
     licor: 'tiene',
     promo: 'no tiene',
     tipo: 'clasico',
@@ -273,10 +273,10 @@ const products = [
 },
 
 {
-    id:'20',
+    id:20,
     title: 'Sayombhu',
     description: 'Coctél realizado a partir de licor Kahlua, Kirsch y oporto, con zumo de mandarina',
-    price: '75.000 cop',
+    price: 75000,
     licor: 'tiene',
     promo: 'no tiene',
     tipo: 'de la casa',
