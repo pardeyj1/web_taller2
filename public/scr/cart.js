@@ -18,10 +18,10 @@ function renderCart() {
        var newItem = document.createElement('div');
        newItem.classList.add('cart__item');
        newItem.innerHTML = `
-       <h2>` + obj.name + `</h2>
+       <h2 class="data2">` + obj.name + `</h2>
        <img src="${obj.img}"/>
-       <small><h2>${obj.price}USD</h2></small>
-       <button class="removeBtn"><h2>X</h2></button>
+       <small><h2 class="data">${obj.price}cop</h2></small>
+       <button class="removeBtn"><h2 class="data">Quitar</h2></button>
        `;
        var btn = newItem.querySelector('.removeBtn');
        btn.addEventListener('click', function () {

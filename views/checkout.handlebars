@@ -1,23 +1,37 @@
-<a href="/store" class="back"> Regresar a la tienda</a>
-<form action="/checkout" method="POST" class="checkout_form">
-    <label>
-        <h2>Name</h2>
-        <input placeholder="Name" name="name" required="true">
+<a href="/store" class="back"> Regresar</a>
+<div class="formContainer">
+    <form action="/checkout" method="POST" class="checkout_form">
+    <label class="checkout_form__label">
+        <div class="dataList">
+            <h2 class="data3">Nombre completo</h2>
+            <h2 class="data3">Número de tarjeta</h2>
+            <h2 class="data3">CVV</h2>
+            <h2 class="data3">Dirección</h2>
+        </div>
+        
+        <div class="inputs">
+            <input placeholder="" name="name" required="true" class="inputss">
+            <input placeholder="" name="cardnumber" required="true" type="number" class="inputss"> 
+            <input placeholder="" name="cvv" required="true" type="number" class="inputss">
+            <input placeholder="" name="address" required="true" class="inputss"> 
+        </div>
     </label>
-    <label>
-        <h2>Card Number</h2>
-        <input placeholder="Card Number" name="cardnumber" required="true" type="number">
+    <label class="checkout_form__label">
+        
+        
     </label>
-    <label>
-        <h2>CVV</h2>
-        <input placeholder="CVV" name="cvv" required="true" type="number">
+    <label class="checkout_form__label">
+        
+        
     </label>
-    <label>
-        <h2>Expiration Date</h2>
-        <input placeholder="Expiration Date" name="expirationdate" required="true">
+    <label class="checkout_form__label">
+        
+        
     </label>
     <input name="products" type="hidden" class="checkoutform__products">
     <button class="sendBtn">Proceed</button>
 </form>
+</div>
 
-<script src="/scripts/checkout.js"></script>
+
+<script src="/scr/checkout.js"></script>

@@ -1521,20 +1521,179 @@ input::placeholder {
     .filter_menu{
         display: flex;
         text-align: center;
+    }
+    .filter_menu2{
+        display: flex;
+        text-align: center;
         
     }
     .store_menu{
         margin-left: 17%;
     }
     .filters{
-        margin: 20px;
+        margin: 30px;
         text-decoration: none;
         font-family: 'Economica', sans-serif;
         text-decoration: none;
         color: blanchedalmond;
         font-size: 2vw;
-        border-radius: 20%;
+        border-radius: 50px;
+        
         border: solid 2px white;
+    }
+    
+    .formContainer{
+        background-color: #9F1866;
+        padding: 5%;
+    }
+    .checkout_form{
+        margin-left: 0%;
+        padding: 5%;
+        text-align: center;
+        border: 1px solid black;;
+        border-radius: 50px;
+        
+    }
+    .checkout_form__label{
+        display: flex;
+    }
+    .data{
+
+    }
+    input{
+        color: black;
+        font-family: 'Economica', sans-serif;
+    }
+    .inputss{
+        color: rgb(0, 0, 0);
+        border: none;
+        font-size: 1.8vw;
+        margin: 2%;
+        padding: 2%;
+        background-color: rgba(255,255,255,0.1);
+        border: solid 1px rgb(0, 0, 0);
+        border-radius: 50px;
+        font-family: 'Economica', sans-serif;
+    }
+    .inputs{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .data{
+        color: #D78400;
+        font-family: 'Quicksand', sans-serif;
+        width: 100%;
+        font-size: 2vw;
+    }
+    .data3{
+        color: #D78400;
+        font-family: 'Quicksand', sans-serif;
+        width: 100%;
+        font-size: 2vw;
+        margin-bottom: 55px;
+    }
+    .removeBtn{
+        background-color: #9F1866;
+        border: none;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    .data2{
+        color: #B587FF;
+        font-family: 'Quicksand', sans-serif;
+        width: 100%;
+        font-size: 2vw;
+        margin-top: 60px;
+    }
+    .cart__item{
+        background: #2E2170;
+        width: 30%;
+        padding-left: 1%;
+        text-align: center;
+    }
+    .cart__text{
+        color: #B587FF;
+        font-family: 'Quicksand', sans-serif;
+        width: 100%;
+        font-size: 2vw;
+    }
+    .dataList{
+        width: 50%;
+        align-items: center;
+    }
+    .sendBtn{
+        background-color: #D78400;
+        border: none;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 2vw;
+        color: #9F1866;
+        border-radius: 50px;
+        padding: 2%;
+    }
+    .btnAdd{
+        background-color: #A01866;
+        font-size: 32px;
+        width: 120px;
+        height: 50px;
+        border-radius: 0.9px;
+        line-height: 50px;
+        text-align: center;
+        font-family: 'Economica', sans-serif;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        -webkit-transition: background-color 0.2s ease-in-out, font-size 0.5s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+        transition: background-color 0.2s ease-in-out, font-size 0.5s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+        -o-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, font-size 0.5s ease-in-out;
+        transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, font-size 0.5s ease-in-out;
+        transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, font-size 0.5s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+    }
+    .productContainer{
+        margin-top: 2%;
+        justify-content: center;
+        background-color: #2E2170;
+    }
+    .productContainer_text{
+        display: flex;
+        margin-left: 30%;
+    }
+    .productContainer_content{
+        margin-top: 5%;
+        width: 50%;
+        font-family: 'Economica', sans-serif;
+        color: blanchedalmond;
+        font-size: 2vw;
+        padding-bottom: 5%;
+    }
+    .back{
+        font-family: 'Economica', sans-serif;
+        color: blanchedalmond;
+        font-size: 2vw;
+        margin-bottom: 50px;
+        padding: 2%;
+    }
+    .cart{
+        margin-left: 5%;
+    }
+    .fa-shopping-bag{
+        color: blanchedalmond;
+        font-size: 2vw;
+    }
+    .cart_button{
+        font-family: 'Economica', sans-serif;
+        font-size: 2vw;
+        width: 5%;
+        border: none;
+        color: blanchedalmond;
+        background: none;
+    }
+    .btn3{
+        font-family: 'Economica', sans-serif;
+        font-size: 2vw;
+        width: 15%;
+        border: none;
+        color: blanchedalmond;
+        background: #2E2170;
     }
 
 /*///////////////////////////////////////////////////////////////////// */

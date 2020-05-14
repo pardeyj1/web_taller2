@@ -2,13 +2,13 @@
     <div class="store_menu">
         <ul class="filter_menu">
             <li>Filtros
-                <ul class="filter_menu">
-                <li> <a href="/store" class="filters"> Todo</li></a>
-                <li> <a href="/store/?search=no tiene" class="filters"> Sin licor</li></a>
-                <li> <a href="/store/?price_gt=38&price_lt=70" class="filters"> Con licor</li></a>
-                <li> <a href="/store/?search=clasico" class="filters"> Clásicos</li></a>
-                <li> <a href="/store/?price_gt=38&price_lt=70" class="filters"> De la casa</li></a>
-                <li> <a href="/store/?price_lt=50000" class="filters"> Promos </li></a>
+                <ul class="filter_menu2">
+                <li class="lis"> <a href="/store" class="filters"> Todo</li></a>
+                <li class="lis"> <a href="/store/?search=no tiene" class="filters"> Sin licor</li></a>
+                <li class="lis"> <a href="/store/?search=tiene" class="filters"> Con licor</li></a>
+                <li class="lis"> <a href="/store/?search=clasico" class="filters"> Clásicos</li></a>
+                <li class="lis"> <a href="/store/?search=de la casa" class="filters"> De la casa</li></a>
+                <li class="lis"> <a href="/store/?price_lt=50000" class="filters"> Promos </li></a>
                 </ul>
             </li>
         </ul>
@@ -21,12 +21,12 @@
         <h2 class="thumb__price">{{title}}</h2>
         <h2 class="thumb__price">{{price}}cop</h2>
         </a>
-        <button class="btn" data-name="{{title}}"
+        <button class="btnAdd" data-name="{{title}}"
         data-price="{{price}}"
         data-id="{{_id}}"
         data-img="{{img}}"
         >
-        add to cart</button>
+        Añadir</button>
     </div>
     {{/each}}
 </main>

@@ -19,7 +19,7 @@ function configureRoutes (app,db) {
         }
         
         if(req.query.search){
-            filters.tipo = {
+            filters.licor = {
                     $regex: new RegExp(req.query.search, 'i')
                 }
         }
